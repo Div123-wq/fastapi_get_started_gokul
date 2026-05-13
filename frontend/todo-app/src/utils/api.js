@@ -1,4 +1,4 @@
-const BASE_URL = https://fastapi-get-started-gokul-xhzh-git-main-div123-wqs-projects.vercel.app/
+const BASE_URL = https://fastapi-get-started-gokul-xhzh.vercel.app/
 
 async function request(path, options = {}) {
   const res = await fetch(`${BASE_URL}${path}`, {
